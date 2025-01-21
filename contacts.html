@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Nights | Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="contacts-page">
+    <div class="noise-overlay"></div>
+    <div class="language-selector">
+        <div class="language-links">
+            <a href="#" class="language-link" data-lang="ru">RU</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="en">EN</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="es">ES</a>
+        </div>
+    </div>
+    
+    <div class="city-background">
+        <div class="glitch-bg"></div>
+        <div class="cyber-grid"></div>
+        <div class="neon-lines"></div>
+        <div class="holo-elements"></div>
+        <div class="noise-overlay"></div>
+        <!-- Добавляем геометрические фигуры -->
+        <div class="geometric-shape circle" style="top: 20%; left: 15%;"></div>
+        <div class="geometric-shape square" style="top: 40%; right: 20%;"></div>
+        <div class="geometric-shape triangle" style="bottom: 25%; left: 30%;"></div>
+        <div class="geometric-shape circle" style="top: 30%; right: 25%;"></div>
+        <div class="geometric-shape square" style="bottom: 30%; left: 45%;"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="glitch-container">
+                <h1 class="cyber-glitch-title" data-text="MIAMI NIGHTS">MIAMI NIGHTS</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="neon-menu">
+                    <li>
+                        <a href="index.html" class="neon-link" data-translate="home">
+                            <i class="fas fa-home"></i>
+                            <span>ГЛАВНАЯ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="neon-link" data-translate="services">
+                            <i class="fas fa-cogs"></i>
+                            <span>УСЛУГИ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="neon-link" data-translate="portfolio">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>ПОРТФОЛИО</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="templates.html" class="neon-link" data-translate="templates">
+                            <i class="fas fa-layer-group"></i>
+                            <span>ШАБЛОНЫ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.html" class="neon-link active" data-translate="contacts">
+                            <i class="fas fa-network-wired"></i>
+                            <span>КОНТАКТЫ</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contacts-content">
+        <div class="contacts-grid">
+            <!-- Информация о контактах -->
+            <div class="contact-card">
+                <div class="service-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h3 class="cyber-heading">Наши контакты</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="item-content">
+                            <span class="item-label">Телефон</span>
+                            <span class="item-value">+7 (999) 123-45-67</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="item-content">
+                            <span class="item-label">Email</span>
+                            <span class="item-value">info@miaminights.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="item-content">
+                            <span class="item-label">Адрес</span>
+                            <span class="item-value">Москва, ул. Примерная, 123</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                </div>
+                <button class="cyber-button">
+                    <span class="cyber-button-text">НАПИСАТЬ</span>
+                    <span class="cyber-button-glitch"></span>
+                </button>
+            </div>
+
+            <!-- Форма обратной связи -->
+            <div class="contact-card form-card">
+                <div class="card-header">
+                    <i class="fas fa-paper-plane header-icon"></i>
+                    <h3 class="cyber-heading">Напишите нам</h3>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fas fa-user"></i>
+                            <input type="text" class="cyber-input" data-translate="yourName" placeholder="Ваше имя" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" class="cyber-input" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fas fa-comment"></i>
+                            <textarea class="cyber-input" data-translate="message" placeholder="Сообщение" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="cyber-button">
+                        <span class="cyber-button-text" data-translate="sendButton">ОТПРАВИТЬ</span>
+                        <span class="cyber-button-glitch"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="geometric-shapes">
+            <div class="shape circle" style="top: 20%; left: 15%;"></div>
+            <div class="shape square" style="top: 40%; right: 20%;"></div>
+            <div class="shape triangle" style="bottom: 25%; left: 30%;"></div>
+            <div class="shape circle" style="top: 30%; right: 25%;"></div>
+            <div class="shape square" style="bottom: 30%; left: 45%;"></div>
+        </div>
+        <div class="cyber-location-card">
+            <div class="card-header">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3 class="cyber-heading">MIAMI NIGHTS OFFICE</h3>
+            </div>
+            <div class="location-content">
+                <div class="address-block">
+                    <div class="address-line">Passeig de Lluís Companys</div>
+                    <div class="address-line">Ciutat Vella, 08003 Barcelona</div>
+                    <div class="coordinates">41.3879° N, 2.1869° E</div>
+                </div>
+                <div class="cyber-decorations">
+                    <div class="corner top-left"></div>
+                    <div class="corner top-right"></div>
+                    <div class="corner bottom-left"></div>
+                    <div class="corner bottom-right"></div>
+                    <div class="scan-line"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="neon-footer">
+        <p>&copy; 2024 Miami Nights. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

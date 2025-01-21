@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Nights | Главная</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="home-page">
+    <div class="noise-overlay"></div>
+    <div class="language-selector">
+        <div class="language-links">
+            <a href="#" class="language-link" data-lang="ru">RU</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="en">EN</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="es">ES</a>
+        </div>
+    </div>
+    <div class="city-background">
+        <div class="glitch-bg"></div>
+        <div class="cyber-grid"></div>
+        <div class="neon-lines"></div>
+        <div class="holo-elements"></div>
+        <div class="noise-overlay"></div>
+        <div class="fog-container">
+            <div class="fog-layer"></div>
+            <div class="fog-layer"></div>
+            <div class="fog-layer"></div>
+        </div>
+        <div class="lightning-container"></div>
+        <div class="stars"></div>
+        <div class="rain-container"></div>
+        <div class="city-silhouette">
+            <div class="building" style="--height: 60%; --width: 80px; --left: 10%"></div>
+            <div class="building" style="--height: 75%; --width: 60px; --left: 20%"></div>
+            <div class="building" style="--height: 85%; --width: 100px; --left: 35%"></div>
+            <div class="building" style="--height: 90%; --width: 70px; --left: 50%"></div>
+            <div class="building" style="--height: 70%; --width: 90px; --left: 65%"></div>
+            <div class="building" style="--height: 80%; --width: 75px; --left: 80%"></div>
+        </div>
+        <div class="city-grid"></div>
+        <div class="sun"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="glitch-container">
+                <h1 class="cyber-glitch-title" data-text="MIAMI NIGHTS">MIAMI NIGHTS</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="neon-menu">
+                    <li>
+                        <a href="index.html" class="neon-link active" data-translate="home">
+                            <i class="fas fa-home"></i>
+                            <span>ГЛАВНАЯ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="neon-link" data-translate="services">
+                            <i class="fas fa-cogs"></i>
+                            <span>УСЛУГИ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="neon-link" data-translate="portfolio">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>ПОРТФОЛИО</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="templates.html" class="neon-link" data-translate="templates">
+                            <i class="fas fa-layer-group"></i>
+                            <span>ШАБЛОНЫ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.html" class="neon-link" data-translate="contacts">
+                            <i class="fas fa-network-wired"></i>
+                            <span>КОНТАКТЫ</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="content-grid">
+            <div class="feature-box">
+                <span class="neon-text-pink" data-translate="portfolioTitle">ПОРТФОЛИО</span>
+                <p data-translate="portfolioDesc">Наши лучшие работы и проекты</p>
+                <a href="portfolio.html" class="neon-button" data-translate="viewButton">СМОТРЕТЬ</a>
+            </div>
+            <div class="feature-box">
+                <span class="neon-text-blue" data-translate="servicesTitle">УСЛУГИ</span>
+                <p data-translate="servicesDesc">Разработка и дизайн</p>
+                <a href="services.html" class="neon-button" data-translate="detailsButton">ПОДРОБНЕЕ</a>
+            </div>
+            <div class="feature-box">
+                <span class="neon-text-purple" data-translate="templatesTitle">ШАБЛОНЫ</span>
+                <p data-translate="templatesDesc">Готовые решения</p>
+                <a href="templates.html" class="neon-button" data-translate="chooseButton">ВЫБРАТЬ</a>
+            </div>
+            <div class="feature-box">
+                <span class="neon-text-pink" data-translate="contactsTitle">КОНТАКТЫ</span>
+                <p data-translate="contactsDesc">Свяжитесь с нами</p>
+                <a href="contacts.html" class="neon-button" data-translate="writeButton">НАПИСАТЬ</a>
+            </div>
+        </div>
+    </main>
+
+    <div id="particles-js"></div>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html> 

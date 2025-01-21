@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Nights | Шаблоны</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="templates-page">
+    <div class="noise-overlay"></div>
+    <div class="language-selector">
+        <div class="language-links">
+            <a href="#" class="language-link" data-lang="ru">RU</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="en">EN</a>
+            <span class="divider">|</span>
+            <a href="#" class="language-link" data-lang="es">ES</a>
+        </div>
+    </div>
+    
+    <div class="city-background">
+        <div class="glitch-bg"></div>
+        <div class="cyber-grid"></div>
+        <div class="neon-lines"></div>
+        <div class="holo-elements"></div>
+        <div class="noise-overlay"></div>
+        <div class="geometric-shape circle" style="top: 15%; left: 10%;"></div>
+        <div class="geometric-shape square" style="top: 45%; right: 15%;"></div>
+        <div class="geometric-shape triangle" style="bottom: 20%; left: 25%;"></div>
+        <div class="geometric-shape circle" style="top: 25%; right: 30%;"></div>
+        <div class="geometric-shape square" style="bottom: 35%; left: 40%;"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="glitch-container">
+                <h1 class="cyber-glitch-title" data-text="MIAMI NIGHTS">MIAMI NIGHTS</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="neon-menu">
+                    <li>
+                        <a href="index.html" class="neon-link" data-translate="home">
+                            <i class="fas fa-home"></i>
+                            <span>ГЛАВНАЯ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="neon-link" data-translate="services">
+                            <i class="fas fa-cogs"></i>
+                            <span>УСЛУГИ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="neon-link" data-translate="portfolio">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>ПОРТФОЛИО</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="templates.html" class="neon-link active" data-translate="templates">
+                            <i class="fas fa-layer-group"></i>
+                            <span>ШАБЛОНЫ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.html" class="neon-link" data-translate="contacts">
+                            <i class="fas fa-network-wired"></i>
+                            <span>КОНТАКТЫ</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="templates-content">
+        <!-- Фильтры с неоновой анимацией -->
+        <div class="template-filters">
+            <button class="cyber-filter active" data-translate="all">ВСЕ</button>
+            <button class="cyber-filter" data-translate="landing">ЛЕНДИНГИ</button>
+            <button class="cyber-filter" data-translate="business">БИЗНЕС</button>
+            <button class="cyber-filter" data-category="portfolio">
+                <span class="filter-text">ПОРТФОЛИО</span>
+                <span class="filter-glow"></span>
+            </button>
+        </div>
+
+        <div class="templates-grid">
+            <!-- Карточка шаблона -->
+            <div class="template-card">
+                <div class="service-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h3 class="cyber-heading">Лендинг "Cyber"</h3>
+                <p class="cyber-text">Современный адаптивный лендинг в стиле киберпанк с анимациями</p>
+                <div class="cyber-price">15,000 ₽</div>
+                <button class="cyber-button">
+                    <span class="cyber-button-text">КУПИТЬ</span>
+                    <span class="cyber-button-glitch"></span>
+                </button>
+            </div>
+            <!-- Добавьте больше карточек шаблонов -->
+        </div>
+
+        <!-- Модальное окно предпросмотра -->
+        <div class="preview-modal">
+            <div class="preview-content">
+                <span class="close-preview">&times;</span>
+                <div class="preview-frame">
+                    <div class="preview-controls">
+                        <button class="control-button" data-device="desktop">💻</button>
+                        <button class="control-button" data-device="tablet">📱</button>
+                        <button class="control-button" data-device="mobile">📱</button>
+                    </div>
+                    <div class="preview-viewport">
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="geometric-shapes">
+            <div class="shape circle" style="top: 15%; left: 10%;"></div>
+            <div class="shape square" style="top: 45%; right: 15%;"></div>
+            <div class="shape triangle" style="bottom: 20%; left: 25%;"></div>
+            <div class="shape circle" style="top: 25%; right: 30%;"></div>
+            <div class="shape square" style="bottom: 35%; left: 40%;"></div>
+        </div>
+    </main>
+
+    <footer class="neon-footer">
+        <p>&copy; 2024 Miami Nights. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
